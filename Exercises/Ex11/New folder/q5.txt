@@ -1,0 +1,3 @@
+The post of the message is done via sending a POST to http://localhost:8000/post, with the desired
+message and channel attributes. We can also allow the passing of credentials (i.e. cookies), so the
+message will be sent from the account of the person opened the HTML file.

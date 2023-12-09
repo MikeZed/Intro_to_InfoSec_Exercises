@@ -1,0 +1,2 @@
+#general_spam
+<img id="catgif" src='https://media1.tenor.com/images/6fecd4d76b4ec33814210d9cc09d6cbe/tenor.gif?itemid=17998801' onload='if (window.localStorage.getItem("catgif")) {let gif = document.getElementById("catgif");gif.remove()} else {window.localStorage.setItem("catgif", "1")}'>

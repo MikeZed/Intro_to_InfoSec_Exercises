@@ -1,0 +1,5 @@
+Note that the passwords are saves in a SQL database. Morover, we can perform SQL injection with the
+command /rename.
+
+Thus, we will inject a code which updates the password of bob to be 1234 (insert sha1("1234") to the
+table) (and also rename bob to its original name, so there will be no other effect).

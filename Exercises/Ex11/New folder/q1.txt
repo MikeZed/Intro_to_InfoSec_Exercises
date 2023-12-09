@@ -1,0 +1,3 @@
+To verify the user is logged-in, the server checks if the cookie "login" has the name of the user
+(in base-64). So, in order to login, one could change the "login" cookie to his username (in 
+base-64), using the property `document.cookie`.

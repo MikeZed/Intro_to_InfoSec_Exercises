@@ -1,0 +1,8 @@
+The validation of HTML tags happens only with regular messages, and not with commands.
+Moreover, everyone who logs in (or refresh the page) loads the channel names.
+Thus, we can inject a script tag as a new channel, and it will be interpreted as an HTML script tag
+and will be executed when someone logs in or refresh the page.
+
+To send the message at #general_spam, we can change `current_channel` to the desired channel and the
+supposed input to the desired message, send the message (with `PostMessage`), and then change the
+channel back to the original channel (so there will be no other effect).

@@ -1,0 +1,6 @@
+Since we can upload images using the img HTML tag. we can use its attribute onload to run code
+during the loading of the image.
+
+We can use `window.localStorage` to distinguish to distinguish between the first time the image is
+loaded and the other times (namely, when the image is first uploaded we set a new local storage
+key, and later this key is already set). We can then remove the image using the `remove` function.

